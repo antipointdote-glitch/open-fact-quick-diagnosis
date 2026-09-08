@@ -1,3 +1,28 @@
+# Open Fact Quick Diagnosis
+An executable AI Workflow that turns public-information verification into a disciplined, auditable process.
+
+## What it does
+Input a closed decision question + public materials → outputs:
+1. Direct answer to the decision question
+2. Source ledger (reliability A–F)
+3. Claim register (L1–L5 with mandatory “why not higher” justification)
+4. Conflict comparison table
+5. Findings with **suggested wording** + **forbidden wording**
+6. Forced Self-check checklist (blocks output until all rules pass)
+
+## Core Discipline
+- Official statements / single-party narratives are capped at L4 and can never be written as plain facts
+- Reposts and secondary reporting do not count as independent corroboration
+- Every claim must actively consider downgrading
+- Must output both “what can be said” and “what must never be said”
+
+## Quick Start
+1. Copy the full content of `system_prompt.md` into any long-context LLM
+2. Or run the Gradio prototype locally / deploy to Hugging Face Spaces
+
+## Why this matters for AI products
+This is a concrete example of **information boundary control** and **output evaluation framework** design — exactly the kind of systematic thinking needed for production LLM systems, red-teaming, and high-stakes conversational AI.
+
 # 公开快诊 · AI 辅助版（Open Fact Quick Diagnosis）
 
 把「公开信息研判」工作流固化成可复用的 AI 工具。  
